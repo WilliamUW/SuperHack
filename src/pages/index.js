@@ -155,9 +155,7 @@ export default function Home() {
               chainName: "Optimism Goerli",
               blockExplorerUrls: ["	https://goerli-explorer.optimism.io"],
               nativeCurrency: { symbol: "ETH", decimals: 18 },
-              rpcUrls: [
-                "https://optimism-goerli.publicnode.com",
-              ],
+              rpcUrls: ["https://optimism-goerli.publicnode.com"],
             },
           ],
         })
@@ -321,11 +319,41 @@ export default function Home() {
                 textAlign: "center",
               }}
             >
-              Meet Super.ai, the easiest way to get started with development on OP Stack! Super.ai will be with you every step of the way to answer any questions you have, provide live Tech demos, and write code for you to reduce the friction when it comes to blockchain development!
+              When I first stumbled upon the OP Stack documentation, I was
+              utterly overwhelmed and didn't know where to begin. I wanted to
+              ask questions but I too embarassed to take up a sponsor's time,
+              and sometimes I didn't even know what questions to ask. I was so
+              close to just giving up on this hackathon when I realized: "Hey,
+              maybe this is a problem I can help solve!"
+            </h2>
+            <h2
+              style={{
+                backgroundColor: "rgba(0, 0, 0, 0.5)",
+                padding: "20px",
+                fontSize: "24px",
+                color: "#fff",
+                textAlign: "center",
+              }}
+            >
+              This is where I got the inspiration for Super.ai! The easiest way
+              to get started with development on OP Stack.
+            </h2>
+            <h2
+              style={{
+                backgroundColor: "rgba(0, 0, 0, 0.5)",
+                padding: "20px",
+                fontSize: "24px",
+                color: "#fff",
+                textAlign: "center",
+              }}
+            >
+              Super.ai will be with you every step of the way to answer any
+              questions you have, provide live Tech demos, and write code for
+              you to reduce the friction when it comes to blockchain
+              development!
             </h2>
           </div>
           <h1>&nbsp;</h1>
-
 
           <div>Injected Provider {hasProvider ? "DOES" : "DOES NOT"} Exist</div>
           <h1>&nbsp;</h1>
@@ -435,10 +463,10 @@ export default function Home() {
 
           <h1>&nbsp;</h1>
           <IDKitWidget
-            action={process.env.NEXT_PUBLIC_WLD_ACTION_NAME || ''}
+            action={process.env.NEXT_PUBLIC_WLD_ACTION_NAME || ""}
             onSuccess={onSuccess}
             handleVerify={handleProof}
-            app_id={process.env.NEXT_PUBLIC_WLD_APP_ID || ''}
+            app_id={process.env.NEXT_PUBLIC_WLD_APP_ID || ""}
             credential_types={[CredentialType.Orb, CredentialType.Phone]}
           >
             {({ open }) => (
@@ -464,7 +492,6 @@ export default function Home() {
           <h1>&nbsp;</h1>
           <p className="text-13 text-c2a4e5">Powered by WorldCoin</p>
           <img src="https://media1.giphy.com/avatars/HeyAutoHQ/DgfrJNR8oUyv.gif"></img>
-
         </div>
       )}
       {verified && (
