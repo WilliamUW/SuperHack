@@ -1,0 +1,6 @@
+# pip install -r requirements.txt
+# GraphQL: https://graphql.org/code/#python
+requests
+pandas
+matplotlib
+plotly_express==0.4.0
