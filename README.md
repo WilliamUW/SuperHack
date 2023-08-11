@@ -15,8 +15,8 @@ Super.ai will be with you every step of the way to answer any questions you have
 
 ### How it's made
 #### Tell us about how you built this project; the nitty-gritty details. What technologies did you use? How are they pieced together? If you used any sponsor technologies, how did it benefit your project? Did you do anything particuarly hacky that's notable and worth mentioning?
-ChromaDB for creating vector embeddings
-OpenAI for response generation
-Next.JS for frontend
-Metamask SDK for wallet authentication and adding of Optimism and Optimism Goerli chains
-WorldCoin for user authentication
+To enhance the contextual relevance and accuracy of sponsor documentation, we employ ChromaDB for generating LLM vector embeddings.
+We utilize OpenAI for generating relevant responses using our custom vector embeddings.
+For a smooth and interactive user experience on the frontend, our platform is built on Next.JS.
+Ensuring the integrity of transactions and user credentials, we've integrated Metamask SDK. It not only authenticates wallets but also has options for adding the Optimism and Optimism Goerli chains with one click.
+For user authentication that's robust and reliable, we've chosen WorldCoin to provide a secured gateway for our users.
