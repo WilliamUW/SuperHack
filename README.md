@@ -19,3 +19,4 @@ ChromaDB for creating vector embeddings
 OpenAI for response generation
 Next.JS for frontend
 Metamask SDK for wallet authentication and adding of Optimism and Optimism Goerli chains
+WorldCoin for user authentication
