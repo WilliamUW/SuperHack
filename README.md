@@ -20,3 +20,16 @@ Super.ai will be with you every step of the way to answer any questions you have
 3. For a smooth and interactive user experience on the frontend, our platform is built on Next.JS.
 4. Ensuring the integrity of transactions and user credentials, we've integrated Metamask SDK. It not only authenticates wallets but also has options for adding the Optimism and Optimism Goerli chains with one click.
 5. For user authentication that's robust and reliable, we've chosen WorldCoin to provide a secured gateway for our users.
+
+
+# Sponsors
+
+## Optimism
+Best Superchain Dev Tools & Infra + Super Pool Prize
+My team is creating a tool that will help OP Stack developers receive instant Q&A, live tech demos, and code generation trained on OP Stack documentation
+
+## Base - Base Nodes Operations
+## Worldcoin - 3K Pool Prize for WorldCoin sign-in
+## Zora - $20K ($2K for 10 teams) Pool Prize
+## Mode - Best Dev Tool + Best Use of AI + Pool Prize
+## Chain Link - Data feeds
