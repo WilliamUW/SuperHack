@@ -2,7 +2,7 @@ import requests
 from bs4 import BeautifulSoup
  
  
-url = 'https://docs.mode.network/'
+url = 'https://docs.worldcoin.org/'
 reqs = requests.get(url)
 soup = BeautifulSoup(reqs.text, 'html.parser')
  
