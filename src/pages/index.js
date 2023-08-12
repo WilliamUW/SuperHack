@@ -164,6 +164,26 @@ export default function Home() {
     }
   };
 
+  const addModeChain = () => {
+    if (window.ethereum) {
+      window.ethereum
+        .request({
+          method: "wallet_addEthereumChain",
+          params: [
+            {
+              chainId: "0x397",
+              chainName: "Mode Testnet",
+              blockExplorerUrls: ["https://sepolia.explorer.mode.network"],
+              nativeCurrency: { symbol: "ETH", decimals: 18 },
+              rpcUrls: ["https://sepolia.mode.network"],
+            },
+          ],
+        })
+        .then((res) => console.log("add", res))
+        .catch((e) => console.log("ADD ERR", e));
+    }
+  };
+
   useEffect(() => {
     if (window.ethereum) {
       window.ethereum.on("chainChanged", (chain) => {
@@ -453,6 +473,23 @@ export default function Home() {
             onClick={addMumbaiChain}
           >
             Add Optimism Goerli Testnet to your MetaMask Wallet!
+          </button>
+          <button
+            style={{
+              padding: "10px 20px",
+              fontSize: "16px",
+              fontWeight: "bold",
+              borderRadius: "5px",
+              color: "#fff",
+              backgroundColor: "orange",
+              border: "none",
+              cursor: "pointer",
+              boxShadow: "0 2px 4px rgba(0, 0, 0, 0.1)",
+              transition: "background-color 0.3s",
+            }}
+            onClick={addModeChain}
+          >
+            Add Mode Testnet to your MetaMask Wallet!
           </button>
 
           {chain && `Connected chain: ${chain}`}
