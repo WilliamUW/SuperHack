@@ -26,12 +26,18 @@ Super.ai will be with you every step of the way to answer any questions you have
 
 ## Optimism
 Best Superchain Dev Tools & Infra + Super Pool Prize
+
 My team is creating a tool that will help OP Stack developers receive instant Q&A, live tech demos, and code generation trained on OP Stack documentation
 
 ## Base
 
 Base Nodes
+
 My team is creating a tool that will help developers receive instant Q&A, live tech demos, and code generation trained on Base Nodes documentation 
+
+## Zora
+
+My team is creating a tool that will make developers' lives easier by allowing them to receive instant Q&A, live tech demos, and code generation trained on Zora documentation.
 
 ## Worldcoin
 Pool Prize - WorldCoin User Authentication
@@ -39,10 +45,6 @@ Pool Prize - WorldCoin User Authentication
 For user authentication that's robust and reliable, we've chosen WorldCoin to provide a secured gateway for our users.
 
 https://github.com/WilliamUW/SuperHack/blob/1ee1ed24c405d04eaa21b665c11fab93703e3696/src/pages/index.js#L465-L491
-
-## Zora
-
-My team is creating a tool that will make developers' lives easier by allowing them to receive instant Q&A, live tech demos, and code generation trained on Zora documentation.
 
 ## Mode
 Best Developer Tool + Best Use of AI + Pool Prize
