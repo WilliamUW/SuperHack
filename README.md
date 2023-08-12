@@ -48,7 +48,3 @@ For user authentication that's robust and reliable, we've chosen WorldCoin to pr
 
 https://github.com/WilliamUW/SuperHack/blob/1ee1ed24c405d04eaa21b665c11fab93703e3696/src/pages/index.js#L465-L491
 
-## Mode
-Best Developer Tool + Best Use of AI + Pool Prize
-
-My team is creating a tool that will help developers build on Mode by allowing them to receive instant Q&A, live tech demos, and code generation trained on Mode documentation using OpenAI and ChromaDB vector embeddings.
