@@ -2,7 +2,7 @@ import requests
 from bs4 import BeautifulSoup
  
  
-url = 'https://docs.base.org/'
+url = 'https://base.org/'
 reqs = requests.get(url)
 soup = BeautifulSoup(reqs.text, 'html.parser')
  
