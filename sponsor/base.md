@@ -7,7 +7,8 @@ Our team is creating a tool that will also help developers build on Base by allo
 Deployed on Base using Optimism SDK
 
 We've deployed our own Super.ai token on Base Goerli!
-[Super.ai Token](https://github.com/WilliamUW/SuperHack/assets/22282583/21e93be0-f371-4d09-93f7-6fec5aecda4b)
+<img width="1280" alt="Super.ai Token" src="[https://github.com/WilliamUW/SuperHack/assets/25058545/0442b4fa-bab5-4ff2-a9e7-5957a0195e05](https://github.com/WilliamUW/SuperHack/assets/22282583/21e93be0-f371-4d09-93f7-6fec5aecda4b)">
+
 https://thirdweb.com/base-goerli/0xB3b588A3269e954198849c735c69A7Eb3C810C5c
 Check it out on blockscout: https://base-goerli.blockscout.com/address/0xB3b588A3269e954198849c735c69A7Eb3C810C5c
 
