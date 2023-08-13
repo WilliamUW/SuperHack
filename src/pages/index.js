@@ -144,6 +144,46 @@ export default function Home() {
     }
   };
 
+  const addZoraChain = () => {
+    if (window.ethereum) {
+      window.ethereum
+        .request({
+          method: "wallet_addEthereumChain",
+          params: [
+            {
+              chainId: "0x76ADF1",
+              chainName: "Zora",
+              blockExplorerUrls: ["	https://explorer.zora.energy"],
+              nativeCurrency: { symbol: "OP", decimals: 18 },
+              rpcUrls: ["https://rpc.zora.energy"],
+            },
+          ],
+        })
+        .then((res) => console.log("add", res))
+        .catch((e) => console.log("ADD ERR", e));
+    }
+  };
+
+  const addZoraTestChain = () => {
+    if (window.ethereum) {
+      window.ethereum
+        .request({
+          method: "wallet_addEthereumChain",
+          params: [
+            {
+              chainId: "0x3E7",
+              chainName: "Zora Goerli",
+              blockExplorerUrls: ["https://testnet.explorer.zora.energy"],
+              nativeCurrency: { symbol: "ETH", decimals: 18 },
+              rpcUrls: ["	https://testnet.rpc.zora.energy"],
+            },
+          ],
+        })
+        .then((res) => console.log("add", res))
+        .catch((e) => console.log("ADD ERR", e));
+    }
+  };
+
   const addMumbaiChain = () => {
     if (window.ethereum) {
       window.ethereum
@@ -518,6 +558,40 @@ export default function Home() {
             onClick={addModeChain}
           >
             Add Mode Testnet to your MetaMask Wallet!
+          </button>
+          <button
+            style={{
+              padding: "10px 20px",
+              fontSize: "16px",
+              fontWeight: "bold",
+              borderRadius: "5px",
+              color: "#fff",
+              backgroundColor: "orange",
+              border: "none",
+              cursor: "pointer",
+              boxShadow: "0 2px 4px rgba(0, 0, 0, 0.1)",
+              transition: "background-color 0.3s",
+            }}
+            onClick={addZoraChain}
+          >
+            Add Zora Network to your MetaMask Wallet!
+          </button>
+          <button
+            style={{
+              padding: "10px 20px",
+              fontSize: "16px",
+              fontWeight: "bold",
+              borderRadius: "5px",
+              color: "#fff",
+              backgroundColor: "orange",
+              border: "none",
+              cursor: "pointer",
+              boxShadow: "0 2px 4px rgba(0, 0, 0, 0.1)",
+              transition: "background-color 0.3s",
+            }}
+            onClick={addZoraTestChain}
+          >
+            Add Zora Georli Network to your MetaMask Wallet!
           </button>
 
           {chain && `Connected chain: ${chain}`}
