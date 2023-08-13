@@ -3,7 +3,7 @@
 ### Super.ai brings developer accessibility to SuperChain!
 
 ### Short description
-Instant Q&A, live tech demos, and code generation for OP Stack, Base, Zora, and Mode dev support!
+Instant Q&A, live tech demos, and code generation for OP Stack, Base, Zora, and Mode, and WorldCoin dev support!
 
 ### 💡 Inspiration
 When we first stumbled upon the OP Stack documentation, we were utterly overwhelmed and didn't know where to begin. We wanted to ask questions but were too embarrassed to take up a sponsor's time, and sometimes we didn't even know what questions to ask. We were close to giving up on this hackathon when we realized: "Hey, maybe this is a problem we can help solve!" Then we realized that this was a problem that wasn't specific to OP Stack, but also existed for other technologies.
