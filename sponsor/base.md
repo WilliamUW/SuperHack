@@ -2,7 +2,7 @@
 
 Base Nodes
 
-My team is creating a tool that will help developers receive instant Q&A, live tech demos, and code generation trained on Base Nodes documentation 
+My team is creating a tool that will also help developers build on Base by allowing them to receive instant Q&A and code generation trained on Base documentation using OpenAI and ChromaDB vector embeddings.
 
 https://github.com/WilliamUW/SuperHack/assets/25058545/136495e1-3611-44b7-9c8b-1186236b8277
 
