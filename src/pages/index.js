@@ -35,9 +35,6 @@ export default function Home() {
   const updateWallet = async (accounts) => {
     /* New */
     setWallet({ accounts }); /* New */
-    setTimeout(() => {
-      setVerified(true);
-    }, 2000);
   }; /* New */
 
   const handleConnect = async () => {
