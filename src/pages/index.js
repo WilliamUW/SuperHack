@@ -141,6 +141,46 @@ export default function Home() {
     }
   };
 
+  const addBaseChain = () => {
+    if (window.ethereum) {
+      window.ethereum
+        .request({
+          method: "wallet_addEthereumChain",
+          params: [
+            {
+              chainId: "0x2105",
+              chainName: "Base",
+              blockExplorerUrls: ["	https://basescan.org"],
+              nativeCurrency: { symbol: "OP", decimals: 18 },
+              rpcUrls: ["https://mainnet.base.org"],
+            },
+          ],
+        })
+        .then((res) => console.log("add", res))
+        .catch((e) => console.log("ADD ERR", e));
+    }
+  };
+
+  const addBaseTestChain = () => {
+    if (window.ethereum) {
+      window.ethereum
+        .request({
+          method: "wallet_addEthereumChain",
+          params: [
+            {
+              chainId: "0x14A33",
+              chainName: "Base Goerli",
+              blockExplorerUrls: ["	https://goerli.basescan.org"],
+              nativeCurrency: { symbol: "OP", decimals: 18 },
+              rpcUrls: ["https://goerli.base.org"],
+            },
+          ],
+        })
+        .then((res) => console.log("add", res))
+        .catch((e) => console.log("ADD ERR", e));
+    }
+  };
+
   const addZoraChain = () => {
     if (window.ethereum) {
       window.ethereum
@@ -172,7 +212,7 @@ export default function Home() {
               chainName: "Zora Goerli",
               blockExplorerUrls: ["https://testnet.explorer.zora.energy"],
               nativeCurrency: { symbol: "ETH", decimals: 18 },
-              rpcUrls: ["	https://testnet.rpc.zora.energy"],
+              rpcUrls: ["https://testnet.rpc.zora.energy"],
             },
           ],
         })
@@ -563,7 +603,41 @@ export default function Home() {
               fontWeight: "bold",
               borderRadius: "5px",
               color: "#fff",
-              backgroundColor: "orange",
+              backgroundColor: "blue",
+              border: "none",
+              cursor: "pointer",
+              boxShadow: "0 2px 4px rgba(0, 0, 0, 0.1)",
+              transition: "background-color 0.3s",
+            }}
+            onClick={addBaseChain}
+          >
+            Add Base Network to your MetaMask Wallet!
+          </button>
+          <button
+            style={{
+              padding: "10px 20px",
+              fontSize: "16px",
+              fontWeight: "bold",
+              borderRadius: "5px",
+              color: "#fff",
+              backgroundColor: "blue",
+              border: "none",
+              cursor: "pointer",
+              boxShadow: "0 2px 4px rgba(0, 0, 0, 0.1)",
+              transition: "background-color 0.3s",
+            }}
+            onClick={addBaseTestChain}
+          >
+            Add Base Network to your MetaMask Wallet!
+          </button>
+          <button
+            style={{
+              padding: "10px 20px",
+              fontSize: "16px",
+              fontWeight: "bold",
+              borderRadius: "5px",
+              color: "#fff",
+              backgroundColor: "purple",
               border: "none",
               cursor: "pointer",
               boxShadow: "0 2px 4px rgba(0, 0, 0, 0.1)",
@@ -580,7 +654,7 @@ export default function Home() {
               fontWeight: "bold",
               borderRadius: "5px",
               color: "#fff",
-              backgroundColor: "orange",
+              backgroundColor: "purple",
               border: "none",
               cursor: "pointer",
               boxShadow: "0 2px 4px rgba(0, 0, 0, 0.1)",
