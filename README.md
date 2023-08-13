@@ -15,7 +15,9 @@ Super.ai is a platform-agnostic tool that uses an LLM-driven chatbot to lower th
 
 ### 🚧 How it's made
 Check out the sponsors folder in our Github repo to see how things were implemented: 
+
 https://github.com/WilliamUW/SuperHack/tree/main/sponsor
+
 1. To enhance the contextual relevance and accuracy of sponsor documentation, we employ LangChain and ChromaDB for generating LLM vector embeddings for OP Stack, Base, and Zora. We deployed smart contracts on Optimism, Base, and Zora (NFT, Token, and Marketplace) and provide a custom API for our LLM to allow users to query through chat.
 2. We utilize OpenAI for generating relevant responses using our custom vector embeddings.
 3. For a smooth and interactive user experience on the frontend, our platform is built on Next.JS.
