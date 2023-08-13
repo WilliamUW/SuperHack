@@ -544,6 +544,10 @@ export default function Home() {
           >
             Send a Transaction!
           </button>
+          <h1>&nbsp;</h1>
+
+          <h1>Add Sponsor Chains with 1 click!</h1>
+          <h1>&nbsp;</h1>
 
           <button
             style={{
@@ -552,7 +556,7 @@ export default function Home() {
               fontWeight: "bold",
               borderRadius: "5px",
               color: "#fff",
-              backgroundColor: "orange",
+              backgroundColor: "red",
               border: "none",
               cursor: "pointer",
               boxShadow: "0 2px 4px rgba(0, 0, 0, 0.1)",
@@ -569,7 +573,7 @@ export default function Home() {
               fontWeight: "bold",
               borderRadius: "5px",
               color: "#fff",
-              backgroundColor: "orange",
+              backgroundColor: "red",
               border: "none",
               cursor: "pointer",
               boxShadow: "0 2px 4px rgba(0, 0, 0, 0.1)",
@@ -579,6 +583,8 @@ export default function Home() {
           >
             Add Optimism Goerli Testnet to your MetaMask Wallet!
           </button>
+          <h1>&nbsp;</h1>
+
           <button
             style={{
               padding: "10px 20px",
@@ -586,7 +592,7 @@ export default function Home() {
               fontWeight: "bold",
               borderRadius: "5px",
               color: "#fff",
-              backgroundColor: "orange",
+              backgroundColor: "green",
               border: "none",
               cursor: "pointer",
               boxShadow: "0 2px 4px rgba(0, 0, 0, 0.1)",
@@ -596,6 +602,8 @@ export default function Home() {
           >
             Add Mode Testnet to your MetaMask Wallet!
           </button>
+          <h1>&nbsp;</h1>
+
           <button
             style={{
               padding: "10px 20px",
@@ -628,8 +636,10 @@ export default function Home() {
             }}
             onClick={addBaseTestChain}
           >
-            Add Base Network to your MetaMask Wallet!
+            Add Base Goerli Network to your MetaMask Wallet!
           </button>
+          <h1>&nbsp;</h1>
+
           <button
             style={{
               padding: "10px 20px",
