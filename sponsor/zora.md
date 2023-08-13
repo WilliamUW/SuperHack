@@ -4,7 +4,7 @@ My team is creating a tool that will make developers' lives easier by allowing t
 
 Deployed on Zora using Optimism SDK
 
-https://github.com/WilliamUW/SuperHack/blob/d33c6b4c2f84feafa1b241c11b656264e05b50b1/scripts/opstack.js#L1-L18
+https://github.com/WilliamUW/SuperHack/blob/59fafe867446c24e6bf38213bf1da61a738ed12a/scripts/opstack.js#L1-L89
 
 https://github.com/WilliamUW/SuperHack/assets/25058545/3b52e549-3149-4288-bb11-78aae2ae2e64
 
