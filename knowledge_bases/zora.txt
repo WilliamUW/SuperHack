@@ -5,10 +5,9 @@ https://docs.zora.co/docs/zora-network/intro
 https://docs.zora.co/docs/zora-api/intro
 https://github.com/ourzora
 https://zora.co/
-https://docs.zora.co/docs//zora-network/intro
-https://docs.zora.co/docs//smart-contracts/creator-tools/intro
+https://docs.zora.co/docs/zora-network/intro
+https://docs.zora.co/docs/smart-contracts/creator-tools/intro
 https://docs.zora.co/docs/guides/api-address-balance
-https://docs.zora.co/docs//zora-network/intro
 https://create.zora.co/
 https://docs.zora.co/docs/zora-api/intro
 https://docs.zora.co/docs/developer-tools/nft-rendering/introduction
@@ -16,3 +15,6 @@ https://docs.zora.co/docs/zora-api/zdk
 https://docs.zora.co/docs/smart-contracts/intro
 https://zora.community
 https://twitter.com/ourzora
+https://docs.zora.co/docs/zora-network/network
+https://docs.zora.co/docs/zora-network/bridging
+https://docs.zora.co/docs/zora-network/deployments
