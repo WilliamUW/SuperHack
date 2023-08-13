@@ -7,6 +7,7 @@
   height: 100%;
   z-index: -1;
   animation: timeTravelAnimation 15s linear infinite;
+  overflow-y: scroll;
 
   background: linear-gradient(-45deg, #190e42, #3d1bc9, #170d10, #2a0d68);
 	background-size: 400% 400%;

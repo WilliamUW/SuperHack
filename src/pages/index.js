@@ -528,7 +528,7 @@ export default function Home() {
           </IDKitWidget>
           <h1>&nbsp;</h1>
           <p className="text-13 text-c2a4e5">Powered by WorldCoin</p>
-          <img src="https://media1.giphy.com/avatars/HeyAutoHQ/DgfrJNR8oUyv.gif"></img>
+          <img src="https://s11.gifyu.com/images/ScAl9.gif"></img>
         </div>
       )}
       {verified && (
