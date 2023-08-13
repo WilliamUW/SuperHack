@@ -2,6 +2,10 @@
 
 My team is creating a tool that will make developers' lives easier by allowing them to receive instant Q&A and code generation trained on Zora documentation.
 
+We deployed an NFT marketplace on Zora testnet
+![Zora NFT Marketplace](https://github.com/WilliamUW/SuperHack/assets/22282583/31f0edf2-2265-47a9-b6ce-1e826d37f4ad)
+
+
 Deployed on Zora using Optimism SDK
 
 https://github.com/WilliamUW/SuperHack/blob/59fafe867446c24e6bf38213bf1da61a738ed12a/scripts/opstack.js#L1-L89
