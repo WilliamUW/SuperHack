@@ -5,3 +5,8 @@ For user authentication that's robust and reliable, we've chosen WorldCoin to pr
 
 https://github.com/WilliamUW/SuperHack/blob/1ee1ed24c405d04eaa21b665c11fab93703e3696/src/pages/index.js#L465-L491
 
+https://github.com/WilliamUW/SuperHack/assets/25058545/aaa1ccf2-a383-485e-8740-b12f219ecbf5
+
+<img width="1280" alt="worldcoin code generation" src="https://github.com/WilliamUW/SuperHack/assets/25058545/3962e017-78ff-463b-b615-0864c638d182">
+
+
