@@ -11,7 +11,7 @@ https://thirdweb.com/base-goerli/0xB3b588A3269e954198849c735c69A7Eb3C810C5c
 Check it out on blockscout: https://base-goerli.blockscout.com/address/0xB3b588A3269e954198849c735c69A7Eb3C810C5c
 
 Deployed on Base using Optimism SDK
-https://github.com/WilliamUW/SuperHack/blob/d33c6b4c2f84feafa1b241c11b656264e05b50b1/scripts/opstack.js#L1-L18
+https://github.com/WilliamUW/SuperHack/blob/59fafe867446c24e6bf38213bf1da61a738ed12a/scripts/opstack.js#L1-L89
 
 https://github.com/WilliamUW/SuperHack/assets/25058545/136495e1-3611-44b7-9c8b-1186236b8277
 
