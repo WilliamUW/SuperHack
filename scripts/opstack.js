@@ -6,10 +6,11 @@ l3Url = "https://testnet.rpc.zora.energy"
 
 l1Provider = new ethers.providers.JsonRpcProvider(l1Url)
 l2Provider = new ethers.providers.JsonRpcProvider(l2Url)
-l3Provider = new ethers.providers.JsonRpcProvider(l2Url)
+l3Provider = new ethers.providers.JsonRpcProvider(l3Url)
 
 l1Signer = new ethers.Wallet(privKey).connect(l1Provider)
 l2Signer = new ethers.Wallet(privKey).connect(l2Provider)
+l3Signer = new ethers.Wallet(privKey).connect(l3Provider)
 
 balances0 = [
     await l1Provider.getBalance(l1Signer.address),
