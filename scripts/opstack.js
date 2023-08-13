@@ -1,3 +1,7 @@
+require('dotenv').config();
+
+const privKey = process.env.PRIV_KEY;
+
 optimismSDK = require("@eth-optimism/sdk")
 
 l1Url = "https://optimism-goerli.publicnode.com"
