@@ -150,8 +150,8 @@ export default function Home() {
             {
               chainId: "0x2105",
               chainName: "Base",
-              blockExplorerUrls: ["	https://basescan.org"],
-              nativeCurrency: { symbol: "OP", decimals: 18 },
+              blockExplorerUrls: ["https://basescan.org"],
+              nativeCurrency: { symbol: "ETH", decimals: 18 },
               rpcUrls: ["https://mainnet.base.org"],
             },
           ],
@@ -170,8 +170,8 @@ export default function Home() {
             {
               chainId: "0x14A33",
               chainName: "Base Goerli",
-              blockExplorerUrls: ["	https://goerli.basescan.org"],
-              nativeCurrency: { symbol: "OP", decimals: 18 },
+              blockExplorerUrls: ["https://goerli.basescan.org"],
+              nativeCurrency: { symbol: "ETH", decimals: 18 },
               rpcUrls: ["https://goerli.base.org"],
             },
           ],
@@ -190,8 +190,8 @@ export default function Home() {
             {
               chainId: "0x76ADF1",
               chainName: "Zora",
-              blockExplorerUrls: ["	https://explorer.zora.energy"],
-              nativeCurrency: { symbol: "OP", decimals: 18 },
+              blockExplorerUrls: ["https://explorer.zora.energy"],
+              nativeCurrency: { symbol: "ETH", decimals: 18 },
               rpcUrls: ["https://rpc.zora.energy"],
             },
           ],
@@ -230,8 +230,8 @@ export default function Home() {
             {
               chainId: "0x1A4",
               chainName: "Optimism Goerli",
-              blockExplorerUrls: ["	https://goerli-explorer.optimism.io"],
-              nativeCurrency: { symbol: "ETH", decimals: 18 },
+              blockExplorerUrls: ["https://goerli-explorer.optimism.io"],
+              nativeCurrency: { symbol: "OP", decimals: 18 },
               rpcUrls: ["https://optimism-goerli.publicnode.com"],
             },
           ],
