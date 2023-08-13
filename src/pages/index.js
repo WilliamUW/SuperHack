@@ -446,6 +446,18 @@ export default function Home() {
 
 
             </h2>
+            <h2
+              style={{
+                backgroundColor: "rgba(0, 0, 0, 0.5)",
+                padding: "20px",
+                fontSize: "24px",
+                color: "#fff",
+                textAlign: "center",
+              }}
+            >
+Verify with WorldID to Get Started!
+
+            </h2>
           </div>
           <h1>&nbsp;</h1>
           <IDKitWidget
