@@ -1,7 +1,7 @@
 ## Optimism
 Best Superchain Dev Tools & Infra + Super Pool Prize
 
-My team is creating a tool that will help OP Stack developers receive instant Q&A, live tech demos, and code generation trained on OP Stack documentation
+My team is creating a tool that will help developers build on Optimism's OP Stack by allowing them to receive instant Q&A and code generation trained on OP Stack documentation using OpenAI and ChromaDB vector embeddings.
 
 https://github.com/WilliamUW/SuperHack/blob/main/scripts/opstack.js
 
