@@ -4,8 +4,10 @@ Best Superchain Dev Tools & Infra + Super Pool Prize
 My team is creating a tool that will help developers build on Optimism's OP Stack by allowing them to receive instant Q&A and code generation trained on OP Stack documentation using OpenAI and ChromaDB vector embeddings.
 
 We deployed a simple Greeter smart contract and got our bot to interact with it via a custom API! 
+![optimism_deployment](https://github.com/WilliamUW/SuperHack/assets/22282583/37c7297a-4b31-49ae-ac48-4ac0c6ee8447)
 
-We also minted this NFT on Optimism that users can query using the bot: https://goerli-optimism.etherscan.io/tx/0xe79c0a8d85b8115802ceac3e98d51e5e2a47d8199b49eddae7e9ba6e1c808b06
+We also minted this NFT on Optimism that users can query using the bot: 
+https://goerli-optimism.etherscan.io/tx/0xe79c0a8d85b8115802ceac3e98d51e5e2a47d8199b49eddae7e9ba6e1c808b06
 
 https://github.com/WilliamUW/SuperHack/blob/main/scripts/opstack.js
 
