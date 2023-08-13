@@ -1,24 +1,30 @@
-//SPDX-License-Identifier: Unlicense
-pragma solidity ^0.8.0;
+const express = require('express');
+const Web3 = require('web3');
 
-contract Greeter {
-  string greeting;
+const app = express();
+const port = 3000;
 
-  event SetGreeting(
-    address sender,     // msg.sender
-    string greeting
-  ); 
+// Connect to Ethereum node
+const web3 = new Web3(new Web3.providers.HttpProvider('http://localhost:8545')); // Replace with your provider
 
-  constructor(string memory _greeting) {
-    greeting = _greeting;
+// ABI and address of deployed Greeter contract
+const greeterABI = [...]; // Add ABI here
+const greeterAddress = '0x...'; // Add contract address here
+
+// Create contract instance
+const greeterContract = new web3.eth.Contract(greeterABI, greeterAddress);
+
+// Define endpoint to get greeting
+app.get('/greet', async (req, res) => {
+  try {
+    const greeting = await greeterContract.methods.greet().call();
+    res.json({ greeting });
+  } catch (error) {
+    res.status(500).json({ error: 'An error occurred' });
   }
+});
 
-  function greet() public view returns (string memory) {
-    return greeting;
-  }
-
-  function setGreeting(string memory _greeting) public {
-    greeting = _greeting;
-    emit SetGreeting(msg.sender, _greeting);
-  }
-}
+// Start server
+app.listen(port, () => {
+  console.log(`Server running at http://localhost:${port}/`);
+});
