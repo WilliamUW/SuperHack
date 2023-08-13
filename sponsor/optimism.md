@@ -11,7 +11,8 @@ https://github.com/WilliamUW/SuperHack/blob/07f44647e067b5836ff18ad988ef6ed0d9db
 We also minted this NFT on Optimism that users can query using the bot: 
 https://goerli-optimism.etherscan.io/tx/0xe79c0a8d85b8115802ceac3e98d51e5e2a47d8199b49eddae7e9ba6e1c808b06
 
-https://github.com/WilliamUW/SuperHack/blob/d33c6b4c2f84feafa1b241c11b656264e05b50b1/scripts/opstack.js#L1-L18
+Optimism SDK
+https://github.com/WilliamUW/SuperHack/blob/59fafe867446c24e6bf38213bf1da61a738ed12a/scripts/opstack.js#L1-L89
 
 https://github.com/WilliamUW/SuperHack/assets/25058545/db97ea45-3643-4637-aa3d-8515d92ab2e8
 
