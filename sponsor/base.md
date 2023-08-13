@@ -4,6 +4,8 @@ Base Nodes
 
 My team is creating a tool that will also help developers build on Base by allowing them to receive instant Q&A and code generation trained on Base documentation using OpenAI and ChromaDB vector embeddings.
 
+Deployed on Base using Optimism SDK
+
 https://github.com/WilliamUW/SuperHack/blob/d33c6b4c2f84feafa1b241c11b656264e05b50b1/scripts/opstack.js#L1-L18
 
 https://github.com/WilliamUW/SuperHack/assets/25058545/136495e1-3611-44b7-9c8b-1186236b8277
