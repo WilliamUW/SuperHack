@@ -374,6 +374,34 @@ export default function Home() {
             </h2>
           </div>
           <h1>&nbsp;</h1>
+          <IDKitWidget
+            action={process.env.NEXT_PUBLIC_WLD_ACTION_NAME || ""}
+            onSuccess={onSuccess}
+            handleVerify={handleProof}
+            app_id={process.env.NEXT_PUBLIC_WLD_APP_ID || ""}
+            credential_types={[CredentialType.Orb, CredentialType.Phone]}
+          >
+            {({ open }) => (
+              <button
+                onClick={open}
+                style={{
+                  padding: "10px 20px",
+                  fontSize: "16px",
+                  fontWeight: "bold",
+                  borderRadius: "5px",
+                  color: "#fff",
+                  backgroundColor: "black",
+                  border: "none",
+                  cursor: "pointer",
+                  boxShadow: "0 2px 4px rgba(0, 0, 0, 0.1)",
+                  transition: "background-color 0.3s",
+                }}
+              >
+                Verify with World ID
+              </button>
+            )}
+          </IDKitWidget>
+          <h1>&nbsp;</h1>
 
           <div>Injected Provider {hasProvider ? "DOES" : "DOES NOT"} Exist</div>
           <h1>&nbsp;</h1>
@@ -499,34 +527,7 @@ export default function Home() {
           {response && `Last request response: ${response}`}
 
           <h1>&nbsp;</h1>
-          <IDKitWidget
-            action={process.env.NEXT_PUBLIC_WLD_ACTION_NAME || ""}
-            onSuccess={onSuccess}
-            handleVerify={handleProof}
-            app_id={process.env.NEXT_PUBLIC_WLD_APP_ID || ""}
-            credential_types={[CredentialType.Orb, CredentialType.Phone]}
-          >
-            {({ open }) => (
-              <button
-                onClick={open}
-                style={{
-                  padding: "10px 20px",
-                  fontSize: "16px",
-                  fontWeight: "bold",
-                  borderRadius: "5px",
-                  color: "#fff",
-                  backgroundColor: "black",
-                  border: "none",
-                  cursor: "pointer",
-                  boxShadow: "0 2px 4px rgba(0, 0, 0, 0.1)",
-                  transition: "background-color 0.3s",
-                }}
-              >
-                Verify with World ID
-              </button>
-            )}
-          </IDKitWidget>
-          <h1>&nbsp;</h1>
+          
           <p className="text-13 text-c2a4e5">Powered by WorldCoin</p>
           <img src="https://s11.gifyu.com/images/ScAl9.gif"></img>
         </div>
