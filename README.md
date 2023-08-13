@@ -1,5 +1,7 @@
 # 🦸 Super.ai - https://superhackai.netlify.app/
 
+### Super.ai brings developer accessibility to SuperChain!
+
 ### Short description
 Instant Q&A, live tech demos, and code generation for OP Stack, Base, Zora, and Mode dev support!
 
