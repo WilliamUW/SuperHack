@@ -479,8 +479,10 @@ export default function Home() {
             )}
           </IDKitWidget>
           <h1>&nbsp;</h1>
+          
+          <p className="text-13 text-c2a4e5">Powered by WorldCoin</p>
+          <h1>&nbsp;</h1>
 
-          <div>Injected Provider {hasProvider ? "DOES" : "DOES NOT"} Exist</div>
           <h1>&nbsp;</h1>
           <button
             onClick={handleConnect}
@@ -499,6 +501,7 @@ export default function Home() {
           >
             Connect MetaMask
           </button>
+          <div>Injected Provider {hasProvider ? "DOES" : "DOES NOT"} Exist</div>
 
           <h1>&nbsp;</h1>
           <p className="text-13 text-c2a4e5">Powered by MetaMask SDK</p>
@@ -674,6 +677,8 @@ export default function Home() {
           >
             Add Zora Georli Network to your MetaMask Wallet!
           </button>
+          <h1>&nbsp;</h1>
+
 
           {chain && `Connected chain: ${chain}`}
           <p></p>
@@ -681,9 +686,7 @@ export default function Home() {
           <p></p>
           {response && `Last request response: ${response}`}
 
-          <h1>&nbsp;</h1>
-          
-          <p className="text-13 text-c2a4e5">Powered by WorldCoin</p>
+
           <img src="https://s11.gifyu.com/images/ScAl9.gif"></img>
         </div>
       )}
