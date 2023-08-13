@@ -416,12 +416,9 @@ export default function Home() {
                 textAlign: "center",
               }}
             >
-              When I first stumbled upon the OP Stack documentation, I was
-              utterly overwhelmed and didn't know where to begin. I wanted to
-              ask questions but I too embarassed to take up a sponsor's time,
-              and sometimes I didn't even know what questions to ask. I was so
-              close to just giving up on this hackathon when I realized: "Hey,
-              maybe this is a problem I can help solve!"
+              When we first stumbled upon the OP Stack documentation, we were utterly overwhelmed and didn't know where to begin. We wanted to ask questions but were too embarrassed to take up a sponsor's time, and sometimes we didn't even know what questions to ask. We were close to giving up on this hackathon when we realized: "Hey, maybe this is a problem we can help solve!" Then we realized that this was a problem that wasn't specific to OP Stack, but also existed for other technologies.
+
+
             </h2>
             <h2
               style={{
@@ -432,8 +429,9 @@ export default function Home() {
                 textAlign: "center",
               }}
             >
-              This is where I got the inspiration for Super.ai! The easiest way
-              to get started with development on OP Stack.
+              This is where we got the inspiration for Super.ai: The easiest way to get started with development on OP Stack, Base, Zora, Mode, and WorldCoin.
+
+
             </h2>
             <h2
               style={{
@@ -444,10 +442,9 @@ export default function Home() {
                 textAlign: "center",
               }}
             >
-              Super.ai will be with you every step of the way to answer any
-              questions you have, provide live Tech demos, and write code for
-              you to reduce the friction when it comes to blockchain
-              development!
+              Super.ai is a platform-agnostic tool that uses an LLM-driven chatbot to lower the barrier of entry to developing on Optimism, Base, Zora, and Mode! Use it to learn about the SuperChain ecosystem and get code snippets to start building your own dapps!
+
+
             </h2>
           </div>
           <h1>&nbsp;</h1>
